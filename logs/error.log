@@ -1,0 +1,472 @@
+[Fri Nov 03 17:44:12.736149 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446] mod_wsgi (pid=23841): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Fri Nov 03 17:44:12.736220 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446] mod_wsgi (pid=23841): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Fri Nov 03 17:44:12.785413 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446] Traceback (most recent call last):
+[Fri Nov 03 17:44:12.785477 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 16, in <module>
+[Fri Nov 03 17:44:12.785481 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]     application = get_wsgi_application()
+[Fri Nov 03 17:44:12.785487 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]   File "/usr/local/lib/python3.5/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+[Fri Nov 03 17:44:12.785490 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]     django.setup(set_prefix=False)
+[Fri Nov 03 17:44:12.785494 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]   File "/usr/local/lib/python3.5/dist-packages/django/__init__.py", line 22, in setup
+[Fri Nov 03 17:44:12.785497 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Fri Nov 03 17:44:12.785501 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+[Fri Nov 03 17:44:12.785504 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]     self._setup(name)
+[Fri Nov 03 17:44:12.785508 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 41, in _setup
+[Fri Nov 03 17:44:12.785510 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]     self._wrapped = Settings(settings_module)
+[Fri Nov 03 17:44:12.785514 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 97, in __init__
+[Fri Nov 03 17:44:12.785517 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Fri Nov 03 17:44:12.785521 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Fri Nov 03 17:44:12.785523 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]     return _bootstrap._gcd_import(name[level:], package, level)
+[Fri Nov 03 17:44:12.785528 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Fri Nov 03 17:44:12.785532 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Fri Nov 03 17:44:12.785537 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Fri Nov 03 17:44:12.785541 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Fri Nov 03 17:44:12.785546 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Fri Nov 03 17:44:12.785550 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Fri Nov 03 17:44:12.785554 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/settings.py", line 130, in <module>
+[Fri Nov 03 17:44:12.785557 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446]     settings.image_data = {}
+[Fri Nov 03 17:44:12.785575 2017] [wsgi:error] [pid 23841] [client 127.0.0.1:58446] NameError: name 'settings' is not defined
+[Fri Nov 03 17:44:30.253040 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450] mod_wsgi (pid=23843): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Fri Nov 03 17:44:30.253093 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450] mod_wsgi (pid=23843): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Fri Nov 03 17:44:30.253630 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450] Traceback (most recent call last):
+[Fri Nov 03 17:44:30.253686 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 16, in <module>
+[Fri Nov 03 17:44:30.253690 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]     application = get_wsgi_application()
+[Fri Nov 03 17:44:30.253695 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]   File "/usr/local/lib/python3.5/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+[Fri Nov 03 17:44:30.253697 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]     django.setup(set_prefix=False)
+[Fri Nov 03 17:44:30.253701 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]   File "/usr/local/lib/python3.5/dist-packages/django/__init__.py", line 22, in setup
+[Fri Nov 03 17:44:30.253704 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Fri Nov 03 17:44:30.253708 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+[Fri Nov 03 17:44:30.253710 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]     self._setup(name)
+[Fri Nov 03 17:44:30.253714 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 41, in _setup
+[Fri Nov 03 17:44:30.253716 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]     self._wrapped = Settings(settings_module)
+[Fri Nov 03 17:44:30.253720 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 97, in __init__
+[Fri Nov 03 17:44:30.253722 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Fri Nov 03 17:44:30.253726 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Fri Nov 03 17:44:30.253728 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]     return _bootstrap._gcd_import(name[level:], package, level)
+[Fri Nov 03 17:44:30.253732 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Fri Nov 03 17:44:30.253736 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Fri Nov 03 17:44:30.253741 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Fri Nov 03 17:44:30.253746 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Fri Nov 03 17:44:30.253749 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Fri Nov 03 17:44:30.253753 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Fri Nov 03 17:44:30.253758 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/settings.py", line 130, in <module>
+[Fri Nov 03 17:44:30.253760 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450]     settings.image_data = {}
+[Fri Nov 03 17:44:30.253773 2017] [wsgi:error] [pid 23843] [client 127.0.0.1:58450] NameError: name 'settings' is not defined
+[Fri Nov 03 17:44:31.935459 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452] mod_wsgi (pid=23845): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Fri Nov 03 17:44:31.935514 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452] mod_wsgi (pid=23845): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Fri Nov 03 17:44:31.936078 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452] Traceback (most recent call last):
+[Fri Nov 03 17:44:31.936122 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 16, in <module>
+[Fri Nov 03 17:44:31.936125 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]     application = get_wsgi_application()
+[Fri Nov 03 17:44:31.936131 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]   File "/usr/local/lib/python3.5/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+[Fri Nov 03 17:44:31.936133 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]     django.setup(set_prefix=False)
+[Fri Nov 03 17:44:31.936137 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]   File "/usr/local/lib/python3.5/dist-packages/django/__init__.py", line 22, in setup
+[Fri Nov 03 17:44:31.936140 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Fri Nov 03 17:44:31.936144 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+[Fri Nov 03 17:44:31.936146 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]     self._setup(name)
+[Fri Nov 03 17:44:31.936150 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 41, in _setup
+[Fri Nov 03 17:44:31.936152 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]     self._wrapped = Settings(settings_module)
+[Fri Nov 03 17:44:31.936156 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 97, in __init__
+[Fri Nov 03 17:44:31.936158 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Fri Nov 03 17:44:31.936162 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Fri Nov 03 17:44:31.936164 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]     return _bootstrap._gcd_import(name[level:], package, level)
+[Fri Nov 03 17:44:31.936168 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Fri Nov 03 17:44:31.936173 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Fri Nov 03 17:44:31.936177 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Fri Nov 03 17:44:31.936181 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Fri Nov 03 17:44:31.936185 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Fri Nov 03 17:44:31.936189 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Fri Nov 03 17:44:31.936193 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/settings.py", line 130, in <module>
+[Fri Nov 03 17:44:31.936196 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452]     settings.image_data = {}
+[Fri Nov 03 17:44:31.936243 2017] [wsgi:error] [pid 23845] [client 127.0.0.1:58452] NameError: name 'settings' is not defined
+[Fri Nov 03 20:16:40.361014 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920] mod_wsgi (pid=4988): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Fri Nov 03 20:16:40.381626 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920] mod_wsgi (pid=4988): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Fri Nov 03 20:16:40.426746 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920] Traceback (most recent call last):
+[Fri Nov 03 20:16:40.426919 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 16, in <module>
+[Fri Nov 03 20:16:40.426933 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]     application = get_wsgi_application()
+[Fri Nov 03 20:16:40.426949 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]   File "/usr/local/lib/python3.5/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+[Fri Nov 03 20:16:40.426957 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]     django.setup(set_prefix=False)
+[Fri Nov 03 20:16:40.426971 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]   File "/usr/local/lib/python3.5/dist-packages/django/__init__.py", line 22, in setup
+[Fri Nov 03 20:16:40.426979 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Fri Nov 03 20:16:40.426992 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+[Fri Nov 03 20:16:40.426999 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]     self._setup(name)
+[Fri Nov 03 20:16:40.427012 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 41, in _setup
+[Fri Nov 03 20:16:40.427019 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]     self._wrapped = Settings(settings_module)
+[Fri Nov 03 20:16:40.427032 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 97, in __init__
+[Fri Nov 03 20:16:40.427039 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Fri Nov 03 20:16:40.427051 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Fri Nov 03 20:16:40.427058 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]     return _bootstrap._gcd_import(name[level:], package, level)
+[Fri Nov 03 20:16:40.427072 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Fri Nov 03 20:16:40.427085 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Fri Nov 03 20:16:40.427098 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Fri Nov 03 20:16:40.427111 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Fri Nov 03 20:16:40.427125 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Fri Nov 03 20:16:40.427138 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Fri Nov 03 20:16:40.427151 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/settings.py", line 30, in <module>
+[Fri Nov 03 20:16:40.427160 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920]     f = open("/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/css_sprites/static/css_sprites/image/generated/a.txt","a")
+[Fri Nov 03 20:16:40.427228 2017] [wsgi:error] [pid 4988] [client 127.0.0.1:45920] PermissionError: [Errno 13] Permission denied: '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/css_sprites/static/css_sprites/image/generated/a.txt'
+[Fri Nov 03 20:17:23.241972 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928] mod_wsgi (pid=4992): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Fri Nov 03 20:17:23.242023 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928] mod_wsgi (pid=4992): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Fri Nov 03 20:17:23.242578 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928] Traceback (most recent call last):
+[Fri Nov 03 20:17:23.242619 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 16, in <module>
+[Fri Nov 03 20:17:23.242622 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]     application = get_wsgi_application()
+[Fri Nov 03 20:17:23.242627 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]   File "/usr/local/lib/python3.5/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+[Fri Nov 03 20:17:23.242629 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]     django.setup(set_prefix=False)
+[Fri Nov 03 20:17:23.242633 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]   File "/usr/local/lib/python3.5/dist-packages/django/__init__.py", line 22, in setup
+[Fri Nov 03 20:17:23.242635 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Fri Nov 03 20:17:23.242639 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+[Fri Nov 03 20:17:23.242641 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]     self._setup(name)
+[Fri Nov 03 20:17:23.242645 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 41, in _setup
+[Fri Nov 03 20:17:23.242647 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]     self._wrapped = Settings(settings_module)
+[Fri Nov 03 20:17:23.242651 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 97, in __init__
+[Fri Nov 03 20:17:23.242653 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Fri Nov 03 20:17:23.242657 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Fri Nov 03 20:17:23.242659 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]     return _bootstrap._gcd_import(name[level:], package, level)
+[Fri Nov 03 20:17:23.242663 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Fri Nov 03 20:17:23.242666 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Fri Nov 03 20:17:23.242670 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Fri Nov 03 20:17:23.242674 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Fri Nov 03 20:17:23.242678 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Fri Nov 03 20:17:23.242682 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Fri Nov 03 20:17:23.242686 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/settings.py", line 30, in <module>
+[Fri Nov 03 20:17:23.242695 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928]     f = open("/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/css_sprites/static/css_sprites/image/generated/a.txt","a")
+[Fri Nov 03 20:17:23.242709 2017] [wsgi:error] [pid 4992] [client 127.0.0.1:45928] PermissionError: [Errno 13] Permission denied: '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/css_sprites/static/css_sprites/image/generated/a.txt'
+[Fri Nov 03 20:18:39.609553 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934] mod_wsgi (pid=4990): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Fri Nov 03 20:18:39.609630 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934] mod_wsgi (pid=4990): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Fri Nov 03 20:18:39.610175 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934] Traceback (most recent call last):
+[Fri Nov 03 20:18:39.610239 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 16, in <module>
+[Fri Nov 03 20:18:39.610245 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]     application = get_wsgi_application()
+[Fri Nov 03 20:18:39.610251 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]   File "/usr/local/lib/python3.5/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+[Fri Nov 03 20:18:39.610255 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]     django.setup(set_prefix=False)
+[Fri Nov 03 20:18:39.610260 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]   File "/usr/local/lib/python3.5/dist-packages/django/__init__.py", line 22, in setup
+[Fri Nov 03 20:18:39.610263 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Fri Nov 03 20:18:39.610269 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+[Fri Nov 03 20:18:39.610286 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]     self._setup(name)
+[Fri Nov 03 20:18:39.610291 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 41, in _setup
+[Fri Nov 03 20:18:39.610294 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]     self._wrapped = Settings(settings_module)
+[Fri Nov 03 20:18:39.610299 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 97, in __init__
+[Fri Nov 03 20:18:39.610301 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Fri Nov 03 20:18:39.610306 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Fri Nov 03 20:18:39.610309 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]     return _bootstrap._gcd_import(name[level:], package, level)
+[Fri Nov 03 20:18:39.610314 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Fri Nov 03 20:18:39.610320 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Fri Nov 03 20:18:39.610325 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Fri Nov 03 20:18:39.610330 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Fri Nov 03 20:18:39.610335 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Fri Nov 03 20:18:39.610348 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Fri Nov 03 20:18:39.610353 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/settings.py", line 30, in <module>
+[Fri Nov 03 20:18:39.610356 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934]     f = open("/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/css_sprites/static/css_sprites/image/generated/a.txt","a")
+[Fri Nov 03 20:18:39.610372 2017] [wsgi:error] [pid 4990] [client 127.0.0.1:45934] PermissionError: [Errno 13] Permission denied: '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/css_sprites/static/css_sprites/image/generated/a.txt'
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+[Sat Nov 04 11:05:05.627583 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750] mod_wsgi (pid=14048): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Sat Nov 04 11:05:05.627761 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750] mod_wsgi (pid=14048): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Sat Nov 04 11:05:05.679594 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750] Traceback (most recent call last):
+[Sat Nov 04 11:05:05.679846 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 16, in <module>
+[Sat Nov 04 11:05:05.679874 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]     application = get_wsgi_application()
+[Sat Nov 04 11:05:05.679917 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]   File "/usr/local/lib/python3.5/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+[Sat Nov 04 11:05:05.679935 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]     django.setup(set_prefix=False)
+[Sat Nov 04 11:05:05.679968 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]   File "/usr/local/lib/python3.5/dist-packages/django/__init__.py", line 22, in setup
+[Sat Nov 04 11:05:05.679986 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Sat Nov 04 11:05:05.680024 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+[Sat Nov 04 11:05:05.680044 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]     self._setup(name)
+[Sat Nov 04 11:05:05.680082 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 41, in _setup
+[Sat Nov 04 11:05:05.680101 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]     self._wrapped = Settings(settings_module)
+[Sat Nov 04 11:05:05.680137 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 97, in __init__
+[Sat Nov 04 11:05:05.680157 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Sat Nov 04 11:05:05.680184 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sat Nov 04 11:05:05.680197 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sat Nov 04 11:05:05.680219 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sat Nov 04 11:05:05.680282 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sat Nov 04 11:05:05.680307 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Sat Nov 04 11:05:05.680329 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Sat Nov 04 11:05:05.680350 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Sat Nov 04 11:05:05.680372 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sat Nov 04 11:05:05.680394 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/settings.py", line 133, in <module>
+[Sat Nov 04 11:05:05.680405 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750]     if(IMAGE_MAP is not None):
+[Sat Nov 04 11:05:05.680477 2017] [wsgi:error] [pid 14048] [client 127.0.0.1:54750] NameError: name 'IMAGE_MAP' is not defined
+[Sat Nov 04 11:05:06.487170 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752] mod_wsgi (pid=14050): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module., referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487218 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752] mod_wsgi (pid=14050): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'., referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487877 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752] Traceback (most recent call last):, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487935 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 16, in <module>, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487940 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]     application = get_wsgi_application(), referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487946 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]   File "/usr/local/lib/python3.5/dist-packages/django/core/wsgi.py", line 13, in get_wsgi_application, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487949 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]     django.setup(set_prefix=False), referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487955 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]   File "/usr/local/lib/python3.5/dist-packages/django/__init__.py", line 22, in setup, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487958 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING), referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487964 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 53, in __getattr__, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487967 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]     self._setup(name), referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487972 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 41, in _setup, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487975 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]     self._wrapped = Settings(settings_module), referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487980 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 97, in __init__, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487991 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]     mod = importlib.import_module(self.SETTINGS_MODULE), referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.487997 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.488000 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]     return _bootstrap._gcd_import(name[level:], package, level), referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.488005 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.488012 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.488017 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.488023 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.488029 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.488035 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.488041 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/settings.py", line 133, in <module>, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.488044 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752]     if(IMAGE_MAP is not None):, referer: http://djangotest.com/css/generate
+[Sat Nov 04 11:05:06.488061 2017] [wsgi:error] [pid 14050] [client 127.0.0.1:54752] NameError: name 'IMAGE_MAP' is not defined, referer: http://djangotest.com/css/generate
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+[Sun Nov 05 11:05:55.887903 2017] [wsgi:error] [pid 6168] [client 127.0.0.1:39424] mod_wsgi (pid=6168): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Sun Nov 05 11:05:55.888108 2017] [wsgi:error] [pid 6168] [client 127.0.0.1:39424] mod_wsgi (pid=6168): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Sun Nov 05 11:05:55.889041 2017] [wsgi:error] [pid 6168] [client 127.0.0.1:39424] Traceback (most recent call last):
+[Sun Nov 05 11:05:55.889182 2017] [wsgi:error] [pid 6168] [client 127.0.0.1:39424]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 19, in <module>
+[Sun Nov 05 11:05:55.889210 2017] [wsgi:error] [pid 6168] [client 127.0.0.1:39424]     f.write("json=>>"  + json.dumps(os.environ))
+[Sun Nov 05 11:05:55.889307 2017] [wsgi:error] [pid 6168] [client 127.0.0.1:39424] NameError: name 'json' is not defined
+[Sun Nov 05 11:05:56.694427 2017] [wsgi:error] [pid 6172] [client 127.0.0.1:39426] mod_wsgi (pid=6172): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module., referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:05:56.694511 2017] [wsgi:error] [pid 6172] [client 127.0.0.1:39426] mod_wsgi (pid=6172): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'., referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:05:56.694658 2017] [wsgi:error] [pid 6172] [client 127.0.0.1:39426] Traceback (most recent call last):, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:05:56.694675 2017] [wsgi:error] [pid 6172] [client 127.0.0.1:39426]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 19, in <module>, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:05:56.694678 2017] [wsgi:error] [pid 6172] [client 127.0.0.1:39426]     f.write("json=>>"  + json.dumps(os.environ)), referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:05:56.694691 2017] [wsgi:error] [pid 6172] [client 127.0.0.1:39426] NameError: name 'json' is not defined, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:06:33.349249 2017] [wsgi:error] [pid 6169] [client 127.0.0.1:39432] mod_wsgi (pid=6169): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Sun Nov 05 11:06:33.349294 2017] [wsgi:error] [pid 6169] [client 127.0.0.1:39432] mod_wsgi (pid=6169): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Sun Nov 05 11:06:33.349496 2017] [wsgi:error] [pid 6169] [client 127.0.0.1:39432] Traceback (most recent call last):
+[Sun Nov 05 11:06:33.349515 2017] [wsgi:error] [pid 6169] [client 127.0.0.1:39432]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 19, in <module>
+[Sun Nov 05 11:06:33.349518 2017] [wsgi:error] [pid 6169] [client 127.0.0.1:39432]     f.write("json=>>"  + json.dumps(os.environ))
+[Sun Nov 05 11:06:33.349531 2017] [wsgi:error] [pid 6169] [client 127.0.0.1:39432] NameError: name 'json' is not defined
+[Sun Nov 05 11:06:33.978311 2017] [wsgi:error] [pid 6240] [client 127.0.0.1:39434] mod_wsgi (pid=6240): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module., referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:06:33.978355 2017] [wsgi:error] [pid 6240] [client 127.0.0.1:39434] mod_wsgi (pid=6240): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'., referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:06:33.978502 2017] [wsgi:error] [pid 6240] [client 127.0.0.1:39434] Traceback (most recent call last):, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:06:33.978521 2017] [wsgi:error] [pid 6240] [client 127.0.0.1:39434]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 19, in <module>, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:06:33.978524 2017] [wsgi:error] [pid 6240] [client 127.0.0.1:39434]     f.write("json=>>"  + json.dumps(os.environ)), referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:06:33.978537 2017] [wsgi:error] [pid 6240] [client 127.0.0.1:39434] NameError: name 'json' is not defined, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:06:39.112567 2017] [wsgi:error] [pid 6168] [client 127.0.0.1:39436] mod_wsgi (pid=6168): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Sun Nov 05 11:06:39.112620 2017] [wsgi:error] [pid 6168] [client 127.0.0.1:39436] mod_wsgi (pid=6168): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Sun Nov 05 11:06:39.112720 2017] [wsgi:error] [pid 6168] [client 127.0.0.1:39436] Traceback (most recent call last):
+[Sun Nov 05 11:06:39.112746 2017] [wsgi:error] [pid 6168] [client 127.0.0.1:39436]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 19, in <module>
+[Sun Nov 05 11:06:39.112762 2017] [wsgi:error] [pid 6168] [client 127.0.0.1:39436]     f.write("json=>>"  + json.dumps(os.environ))
+[Sun Nov 05 11:06:39.112782 2017] [wsgi:error] [pid 6168] [client 127.0.0.1:39436] NameError: name 'json' is not defined
+[Sun Nov 05 11:06:39.494016 2017] [wsgi:error] [pid 6172] [client 127.0.0.1:39440] mod_wsgi (pid=6172): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module., referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:06:39.494058 2017] [wsgi:error] [pid 6172] [client 127.0.0.1:39440] mod_wsgi (pid=6172): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'., referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:06:39.494145 2017] [wsgi:error] [pid 6172] [client 127.0.0.1:39440] Traceback (most recent call last):, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:06:39.494174 2017] [wsgi:error] [pid 6172] [client 127.0.0.1:39440]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 19, in <module>, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:06:39.494179 2017] [wsgi:error] [pid 6172] [client 127.0.0.1:39440]     f.write("json=>>"  + json.dumps(os.environ)), referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:06:39.494198 2017] [wsgi:error] [pid 6172] [client 127.0.0.1:39440] NameError: name 'json' is not defined, referer: http://djangotest.com/css/generate/
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+[Sun Nov 05 11:07:34.683510 2017] [wsgi:error] [pid 6433] [client 127.0.0.1:39474] mod_wsgi (pid=6433): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Sun Nov 05 11:07:34.683573 2017] [wsgi:error] [pid 6433] [client 127.0.0.1:39474] mod_wsgi (pid=6433): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Sun Nov 05 11:07:34.712989 2017] [wsgi:error] [pid 6433] [client 127.0.0.1:39474] Traceback (most recent call last):
+[Sun Nov 05 11:07:34.713051 2017] [wsgi:error] [pid 6433] [client 127.0.0.1:39474]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 19, in <module>
+[Sun Nov 05 11:07:34.713058 2017] [wsgi:error] [pid 6433] [client 127.0.0.1:39474]     f.write("json=>>"  + json.dumps(os.environ))
+[Sun Nov 05 11:07:34.713069 2017] [wsgi:error] [pid 6433] [client 127.0.0.1:39474]   File "/usr/lib/python3.5/json/__init__.py", line 230, in dumps
+[Sun Nov 05 11:07:34.713074 2017] [wsgi:error] [pid 6433] [client 127.0.0.1:39474]     return _default_encoder.encode(obj)
+[Sun Nov 05 11:07:34.713081 2017] [wsgi:error] [pid 6433] [client 127.0.0.1:39474]   File "/usr/lib/python3.5/json/encoder.py", line 198, in encode
+[Sun Nov 05 11:07:34.713085 2017] [wsgi:error] [pid 6433] [client 127.0.0.1:39474]     chunks = self.iterencode(o, _one_shot=True)
+[Sun Nov 05 11:07:34.713092 2017] [wsgi:error] [pid 6433] [client 127.0.0.1:39474]   File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode
+[Sun Nov 05 11:07:34.713096 2017] [wsgi:error] [pid 6433] [client 127.0.0.1:39474]     return _iterencode(o, 0)
+[Sun Nov 05 11:07:34.713103 2017] [wsgi:error] [pid 6433] [client 127.0.0.1:39474]   File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+[Sun Nov 05 11:07:34.713107 2017] [wsgi:error] [pid 6433] [client 127.0.0.1:39474]     raise TypeError(repr(o) + " is not JSON serializable")
+[Sun Nov 05 11:07:34.713133 2017] [wsgi:error] [pid 6433] [client 127.0.0.1:39474] TypeError: environ({'LANG': 'C', 'PWD': '/', 'APACHE_PID_FILE': '/var/run/apache2/apache2.pid', 'APACHE_RUN_DIR': '/var/run/apache2', 'APACHE_LOG_DIR': '/var/log/apache2', 'DJANGO_SETTINGS_MODULE': 'Django99.settings', 'TZ': 'UTC', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'APACHE_RUN_GROUP': 'www-data', 'APACHE_RUN_USER': 'www-data', 'APACHE_LOCK_DIR': '/var/lock/apache2'}) is not JSON serializable
+[Sun Nov 05 11:07:35.366618 2017] [wsgi:error] [pid 6436] [client 127.0.0.1:39476] mod_wsgi (pid=6436): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module., referer: http://djangotest.com/css/generate//
+[Sun Nov 05 11:07:35.366686 2017] [wsgi:error] [pid 6436] [client 127.0.0.1:39476] mod_wsgi (pid=6436): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'., referer: http://djangotest.com/css/generate//
+[Sun Nov 05 11:07:35.367210 2017] [wsgi:error] [pid 6436] [client 127.0.0.1:39476] Traceback (most recent call last):, referer: http://djangotest.com/css/generate//
+[Sun Nov 05 11:07:35.367264 2017] [wsgi:error] [pid 6436] [client 127.0.0.1:39476]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 19, in <module>, referer: http://djangotest.com/css/generate//
+[Sun Nov 05 11:07:35.367271 2017] [wsgi:error] [pid 6436] [client 127.0.0.1:39476]     f.write("json=>>"  + json.dumps(os.environ)), referer: http://djangotest.com/css/generate//
+[Sun Nov 05 11:07:35.367277 2017] [wsgi:error] [pid 6436] [client 127.0.0.1:39476]   File "/usr/lib/python3.5/json/__init__.py", line 230, in dumps, referer: http://djangotest.com/css/generate//
+[Sun Nov 05 11:07:35.367281 2017] [wsgi:error] [pid 6436] [client 127.0.0.1:39476]     return _default_encoder.encode(obj), referer: http://djangotest.com/css/generate//
+[Sun Nov 05 11:07:35.367301 2017] [wsgi:error] [pid 6436] [client 127.0.0.1:39476]   File "/usr/lib/python3.5/json/encoder.py", line 198, in encode, referer: http://djangotest.com/css/generate//
+[Sun Nov 05 11:07:35.367307 2017] [wsgi:error] [pid 6436] [client 127.0.0.1:39476]     chunks = self.iterencode(o, _one_shot=True), referer: http://djangotest.com/css/generate//
+[Sun Nov 05 11:07:35.367314 2017] [wsgi:error] [pid 6436] [client 127.0.0.1:39476]   File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode, referer: http://djangotest.com/css/generate//
+[Sun Nov 05 11:07:35.367317 2017] [wsgi:error] [pid 6436] [client 127.0.0.1:39476]     return _iterencode(o, 0), referer: http://djangotest.com/css/generate//
+[Sun Nov 05 11:07:35.367325 2017] [wsgi:error] [pid 6436] [client 127.0.0.1:39476]   File "/usr/lib/python3.5/json/encoder.py", line 179, in default, referer: http://djangotest.com/css/generate//
+[Sun Nov 05 11:07:35.367329 2017] [wsgi:error] [pid 6436] [client 127.0.0.1:39476]     raise TypeError(repr(o) + " is not JSON serializable"), referer: http://djangotest.com/css/generate//
+[Sun Nov 05 11:07:35.367346 2017] [wsgi:error] [pid 6436] [client 127.0.0.1:39476] TypeError: environ({'APACHE_RUN_USER': 'www-data', 'APACHE_RUN_DIR': '/var/run/apache2', 'APACHE_LOG_DIR': '/var/log/apache2', 'APACHE_LOCK_DIR': '/var/lock/apache2', 'DJANGO_SETTINGS_MODULE': 'Django99.settings', 'LANG': 'C', 'PWD': '/', 'TZ': 'UTC', 'APACHE_RUN_GROUP': 'www-data', 'APACHE_PID_FILE': '/var/run/apache2/apache2.pid', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'}) is not JSON serializable, referer: http://djangotest.com/css/generate//
+[Sun Nov 05 11:07:37.636251 2017] [wsgi:error] [pid 6435] [client 127.0.0.1:39478] mod_wsgi (pid=6435): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Sun Nov 05 11:07:37.636319 2017] [wsgi:error] [pid 6435] [client 127.0.0.1:39478] mod_wsgi (pid=6435): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Sun Nov 05 11:07:37.636819 2017] [wsgi:error] [pid 6435] [client 127.0.0.1:39478] Traceback (most recent call last):
+[Sun Nov 05 11:07:37.636868 2017] [wsgi:error] [pid 6435] [client 127.0.0.1:39478]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 19, in <module>
+[Sun Nov 05 11:07:37.636894 2017] [wsgi:error] [pid 6435] [client 127.0.0.1:39478]     f.write("json=>>"  + json.dumps(os.environ))
+[Sun Nov 05 11:07:37.636901 2017] [wsgi:error] [pid 6435] [client 127.0.0.1:39478]   File "/usr/lib/python3.5/json/__init__.py", line 230, in dumps
+[Sun Nov 05 11:07:37.636904 2017] [wsgi:error] [pid 6435] [client 127.0.0.1:39478]     return _default_encoder.encode(obj)
+[Sun Nov 05 11:07:37.636908 2017] [wsgi:error] [pid 6435] [client 127.0.0.1:39478]   File "/usr/lib/python3.5/json/encoder.py", line 198, in encode
+[Sun Nov 05 11:07:37.636911 2017] [wsgi:error] [pid 6435] [client 127.0.0.1:39478]     chunks = self.iterencode(o, _one_shot=True)
+[Sun Nov 05 11:07:37.636915 2017] [wsgi:error] [pid 6435] [client 127.0.0.1:39478]   File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode
+[Sun Nov 05 11:07:37.636917 2017] [wsgi:error] [pid 6435] [client 127.0.0.1:39478]     return _iterencode(o, 0)
+[Sun Nov 05 11:07:37.636921 2017] [wsgi:error] [pid 6435] [client 127.0.0.1:39478]   File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+[Sun Nov 05 11:07:37.636923 2017] [wsgi:error] [pid 6435] [client 127.0.0.1:39478]     raise TypeError(repr(o) + " is not JSON serializable")
+[Sun Nov 05 11:07:37.636938 2017] [wsgi:error] [pid 6435] [client 127.0.0.1:39478] TypeError: environ({'APACHE_PID_FILE': '/var/run/apache2/apache2.pid', 'APACHE_RUN_DIR': '/var/run/apache2', 'APACHE_RUN_GROUP': 'www-data', 'APACHE_RUN_USER': 'www-data', 'DJANGO_SETTINGS_MODULE': 'Django99.settings', 'APACHE_LOG_DIR': '/var/log/apache2', 'LANG': 'C', 'PWD': '/', 'APACHE_LOCK_DIR': '/var/lock/apache2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'TZ': 'UTC'}) is not JSON serializable
+[Sun Nov 05 11:07:38.137516 2017] [wsgi:error] [pid 6434] [client 127.0.0.1:39480] mod_wsgi (pid=6434): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module., referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:07:38.137584 2017] [wsgi:error] [pid 6434] [client 127.0.0.1:39480] mod_wsgi (pid=6434): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'., referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:07:38.138111 2017] [wsgi:error] [pid 6434] [client 127.0.0.1:39480] Traceback (most recent call last):, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:07:38.138171 2017] [wsgi:error] [pid 6434] [client 127.0.0.1:39480]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 19, in <module>, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:07:38.138191 2017] [wsgi:error] [pid 6434] [client 127.0.0.1:39480]     f.write("json=>>"  + json.dumps(os.environ)), referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:07:38.138199 2017] [wsgi:error] [pid 6434] [client 127.0.0.1:39480]   File "/usr/lib/python3.5/json/__init__.py", line 230, in dumps, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:07:38.138202 2017] [wsgi:error] [pid 6434] [client 127.0.0.1:39480]     return _default_encoder.encode(obj), referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:07:38.138209 2017] [wsgi:error] [pid 6434] [client 127.0.0.1:39480]   File "/usr/lib/python3.5/json/encoder.py", line 198, in encode, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:07:38.138213 2017] [wsgi:error] [pid 6434] [client 127.0.0.1:39480]     chunks = self.iterencode(o, _one_shot=True), referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:07:38.138221 2017] [wsgi:error] [pid 6434] [client 127.0.0.1:39480]   File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:07:38.138225 2017] [wsgi:error] [pid 6434] [client 127.0.0.1:39480]     return _iterencode(o, 0), referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:07:38.138240 2017] [wsgi:error] [pid 6434] [client 127.0.0.1:39480]   File "/usr/lib/python3.5/json/encoder.py", line 179, in default, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:07:38.138244 2017] [wsgi:error] [pid 6434] [client 127.0.0.1:39480]     raise TypeError(repr(o) + " is not JSON serializable"), referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:07:38.138260 2017] [wsgi:error] [pid 6434] [client 127.0.0.1:39480] TypeError: environ({'LANG': 'C', 'APACHE_RUN_USER': 'www-data', 'PWD': '/', 'APACHE_PID_FILE': '/var/run/apache2/apache2.pid', 'APACHE_RUN_GROUP': 'www-data', 'APACHE_LOG_DIR': '/var/log/apache2', 'APACHE_LOCK_DIR': '/var/lock/apache2', 'TZ': 'UTC', 'DJANGO_SETTINGS_MODULE': 'Django99.settings', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'APACHE_RUN_DIR': '/var/run/apache2'}) is not JSON serializable, referer: http://djangotest.com/css/generate/
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+[Sun Nov 05 11:08:25.700449 2017] [wsgi:error] [pid 6606] [client 127.0.0.1:39502] mod_wsgi (pid=6606): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Sun Nov 05 11:08:25.700516 2017] [wsgi:error] [pid 6606] [client 127.0.0.1:39502] mod_wsgi (pid=6606): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Sun Nov 05 11:08:25.700716 2017] [wsgi:error] [pid 6606] [client 127.0.0.1:39502] Traceback (most recent call last):
+[Sun Nov 05 11:08:25.700754 2017] [wsgi:error] [pid 6606] [client 127.0.0.1:39502]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 19, in <module>
+[Sun Nov 05 11:08:25.700758 2017] [wsgi:error] [pid 6606] [client 127.0.0.1:39502]     f.write("json=>>"  + os.environ)
+[Sun Nov 05 11:08:25.700786 2017] [wsgi:error] [pid 6606] [client 127.0.0.1:39502] TypeError: Can't convert '_Environ' object to str implicitly
+[Sun Nov 05 11:08:26.316585 2017] [wsgi:error] [pid 6608] [client 127.0.0.1:39504] mod_wsgi (pid=6608): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module., referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:08:26.316658 2017] [wsgi:error] [pid 6608] [client 127.0.0.1:39504] mod_wsgi (pid=6608): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'., referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:08:26.316861 2017] [wsgi:error] [pid 6608] [client 127.0.0.1:39504] Traceback (most recent call last):, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:08:26.316899 2017] [wsgi:error] [pid 6608] [client 127.0.0.1:39504]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 19, in <module>, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:08:26.316904 2017] [wsgi:error] [pid 6608] [client 127.0.0.1:39504]     f.write("json=>>"  + os.environ), referer: http://djangotest.com/css/generate/
+[Sun Nov 05 11:08:26.316918 2017] [wsgi:error] [pid 6608] [client 127.0.0.1:39504] TypeError: Can't convert '_Environ' object to str implicitly, referer: http://djangotest.com/css/generate/
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+[Sun Nov 05 16:40:14.385112 2017] [wsgi:error] [pid 6851] [client 127.0.0.1:39560] mod_wsgi (pid=6851): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Sun Nov 05 16:40:14.385205 2017] [wsgi:error] [pid 6851] [client 127.0.0.1:39560] mod_wsgi (pid=6851): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Sun Nov 05 16:40:14.401821 2017] [wsgi:error] [pid 6851] [client 127.0.0.1:39560] Traceback (most recent call last):
+[Sun Nov 05 16:40:14.401936 2017] [wsgi:error] [pid 6851] [client 127.0.0.1:39560]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 15, in <module>
+[Sun Nov 05 16:40:14.401950 2017] [wsgi:error] [pid 6851] [client 127.0.0.1:39560]     os.environ["wsgi.run_once"] = True
+[Sun Nov 05 16:40:14.401969 2017] [wsgi:error] [pid 6851] [client 127.0.0.1:39560]   File "/usr/lib/python3.5/os.py", line 730, in __setitem__
+[Sun Nov 05 16:40:14.401978 2017] [wsgi:error] [pid 6851] [client 127.0.0.1:39560]     value = self.encodevalue(value)
+[Sun Nov 05 16:40:14.401993 2017] [wsgi:error] [pid 6851] [client 127.0.0.1:39560]   File "/usr/lib/python3.5/os.py", line 798, in encode
+[Sun Nov 05 16:40:14.402001 2017] [wsgi:error] [pid 6851] [client 127.0.0.1:39560]     raise TypeError("str expected, not %s" % type(value).__name__)
+[Sun Nov 05 16:40:14.402051 2017] [wsgi:error] [pid 6851] [client 127.0.0.1:39560] TypeError: str expected, not bool
+[Sun Nov 05 16:40:14.986508 2017] [wsgi:error] [pid 6853] [client 127.0.0.1:39562] mod_wsgi (pid=6853): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module., referer: http://djangotest.com/css/generate/
+[Sun Nov 05 16:40:14.986613 2017] [wsgi:error] [pid 6853] [client 127.0.0.1:39562] mod_wsgi (pid=6853): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'., referer: http://djangotest.com/css/generate/
+[Sun Nov 05 16:40:14.987014 2017] [wsgi:error] [pid 6853] [client 127.0.0.1:39562] Traceback (most recent call last):, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 16:40:14.987073 2017] [wsgi:error] [pid 6853] [client 127.0.0.1:39562]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 15, in <module>, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 16:40:14.987077 2017] [wsgi:error] [pid 6853] [client 127.0.0.1:39562]     os.environ["wsgi.run_once"] = True, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 16:40:14.987083 2017] [wsgi:error] [pid 6853] [client 127.0.0.1:39562]   File "/usr/lib/python3.5/os.py", line 730, in __setitem__, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 16:40:14.987086 2017] [wsgi:error] [pid 6853] [client 127.0.0.1:39562]     value = self.encodevalue(value), referer: http://djangotest.com/css/generate/
+[Sun Nov 05 16:40:14.987091 2017] [wsgi:error] [pid 6853] [client 127.0.0.1:39562]   File "/usr/lib/python3.5/os.py", line 798, in encode, referer: http://djangotest.com/css/generate/
+[Sun Nov 05 16:40:14.987094 2017] [wsgi:error] [pid 6853] [client 127.0.0.1:39562]     raise TypeError("str expected, not %s" % type(value).__name__), referer: http://djangotest.com/css/generate/
+[Sun Nov 05 16:40:14.987109 2017] [wsgi:error] [pid 6853] [client 127.0.0.1:39562] TypeError: str expected, not bool, referer: http://djangotest.com/css/generate/
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+[Sun Nov 05 23:27:32.677880 2017] [wsgi:error] [pid 6968] [client 127.0.0.1:49250] mod_wsgi (pid=6968): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Sun Nov 05 23:27:32.677971 2017] [wsgi:error] [pid 6968] [client 127.0.0.1:49250] mod_wsgi (pid=6968): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Sun Nov 05 23:27:32.678216 2017] [wsgi:error] [pid 6968] [client 127.0.0.1:49250] Traceback (most recent call last):
+[Sun Nov 05 23:27:32.678263 2017] [wsgi:error] [pid 6968] [client 127.0.0.1:49250]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 18, in <module>
+[Sun Nov 05 23:27:32.678269 2017] [wsgi:error] [pid 6968] [client 127.0.0.1:49250]     environ['wsgi.multithread']  = False
+[Sun Nov 05 23:27:32.678290 2017] [wsgi:error] [pid 6968] [client 127.0.0.1:49250] NameError: name 'environ' is not defined
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+[Mon Nov 06 01:59:28.414892 2017] [wsgi:error] [pid 14447] [client 127.0.0.1:52090] mod_wsgi (pid=14447): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Mon Nov 06 01:59:28.414956 2017] [wsgi:error] [pid 14447] [client 127.0.0.1:52090] mod_wsgi (pid=14447): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Mon Nov 06 01:59:28.415819 2017] [wsgi:error] [pid 14447] [client 127.0.0.1:52090] Traceback (most recent call last):
+[Mon Nov 06 01:59:28.415858 2017] [wsgi:error] [pid 14447] [client 127.0.0.1:52090]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 16, in <module>
+[Mon Nov 06 01:59:28.415862 2017] [wsgi:error] [pid 14447] [client 127.0.0.1:52090]     os.environ['wsgi.run_once'] = True
+[Mon Nov 06 01:59:28.415868 2017] [wsgi:error] [pid 14447] [client 127.0.0.1:52090]   File "/usr/lib/python3.5/os.py", line 730, in __setitem__
+[Mon Nov 06 01:59:28.415871 2017] [wsgi:error] [pid 14447] [client 127.0.0.1:52090]     value = self.encodevalue(value)
+[Mon Nov 06 01:59:28.415875 2017] [wsgi:error] [pid 14447] [client 127.0.0.1:52090]   File "/usr/lib/python3.5/os.py", line 798, in encode
+[Mon Nov 06 01:59:28.415878 2017] [wsgi:error] [pid 14447] [client 127.0.0.1:52090]     raise TypeError("str expected, not %s" % type(value).__name__)
+[Mon Nov 06 01:59:28.415893 2017] [wsgi:error] [pid 14447] [client 127.0.0.1:52090] TypeError: str expected, not bool
+[Mon Nov 06 01:59:29.026850 2017] [wsgi:error] [pid 14446] [client 127.0.0.1:52092] mod_wsgi (pid=14446): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module., referer: http://djangotest.com/css/generate/
+[Mon Nov 06 01:59:29.026902 2017] [wsgi:error] [pid 14446] [client 127.0.0.1:52092] mod_wsgi (pid=14446): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'., referer: http://djangotest.com/css/generate/
+[Mon Nov 06 01:59:29.027259 2017] [wsgi:error] [pid 14446] [client 127.0.0.1:52092] Traceback (most recent call last):, referer: http://djangotest.com/css/generate/
+[Mon Nov 06 01:59:29.027283 2017] [wsgi:error] [pid 14446] [client 127.0.0.1:52092]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 16, in <module>, referer: http://djangotest.com/css/generate/
+[Mon Nov 06 01:59:29.027286 2017] [wsgi:error] [pid 14446] [client 127.0.0.1:52092]     os.environ['wsgi.run_once'] = True, referer: http://djangotest.com/css/generate/
+[Mon Nov 06 01:59:29.027292 2017] [wsgi:error] [pid 14446] [client 127.0.0.1:52092]   File "/usr/lib/python3.5/os.py", line 730, in __setitem__, referer: http://djangotest.com/css/generate/
+[Mon Nov 06 01:59:29.027303 2017] [wsgi:error] [pid 14446] [client 127.0.0.1:52092]     value = self.encodevalue(value), referer: http://djangotest.com/css/generate/
+[Mon Nov 06 01:59:29.027307 2017] [wsgi:error] [pid 14446] [client 127.0.0.1:52092]   File "/usr/lib/python3.5/os.py", line 798, in encode, referer: http://djangotest.com/css/generate/
+[Mon Nov 06 01:59:29.027309 2017] [wsgi:error] [pid 14446] [client 127.0.0.1:52092]     raise TypeError("str expected, not %s" % type(value).__name__), referer: http://djangotest.com/css/generate/
+[Mon Nov 06 01:59:29.027321 2017] [wsgi:error] [pid 14446] [client 127.0.0.1:52092] TypeError: str expected, not bool, referer: http://djangotest.com/css/generate/
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+[Mon Nov 06 02:15:52.255754 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52580] mod_wsgi (pid=15962, process='', application='djangotest.com|'): Failed to parse WSGI script file '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Mon Nov 06 02:15:52.255810 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52580] mod_wsgi (pid=15962): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Mon Nov 06 02:15:52.255874 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52580]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 67
+[Mon Nov 06 02:15:52.255891 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52580]     raise exc_info[0], exc_info[1], exc_info[2]
+[Mon Nov 06 02:15:52.255916 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52580]                      ^
+[Mon Nov 06 02:15:52.255926 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52580] SyntaxError: invalid syntax
+[Mon Nov 06 02:15:53.714499 2017] [wsgi:error] [pid 15965] [client 127.0.0.1:52582] mod_wsgi (pid=15965, process='', application='djangotest.com|'): Failed to parse WSGI script file '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Mon Nov 06 02:15:53.714547 2017] [wsgi:error] [pid 15965] [client 127.0.0.1:52582] mod_wsgi (pid=15965): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Mon Nov 06 02:15:53.714602 2017] [wsgi:error] [pid 15965] [client 127.0.0.1:52582]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 67
+[Mon Nov 06 02:15:53.714616 2017] [wsgi:error] [pid 15965] [client 127.0.0.1:52582]     raise exc_info[0], exc_info[1], exc_info[2]
+[Mon Nov 06 02:15:53.714634 2017] [wsgi:error] [pid 15965] [client 127.0.0.1:52582]                      ^
+[Mon Nov 06 02:15:53.714642 2017] [wsgi:error] [pid 15965] [client 127.0.0.1:52582] SyntaxError: invalid syntax
+[Mon Nov 06 02:15:55.274855 2017] [wsgi:error] [pid 15966] [client 127.0.0.1:52584] mod_wsgi (pid=15966, process='', application='djangotest.com|'): Failed to parse WSGI script file '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Mon Nov 06 02:15:55.274916 2017] [wsgi:error] [pid 15966] [client 127.0.0.1:52584] mod_wsgi (pid=15966): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Mon Nov 06 02:15:55.274983 2017] [wsgi:error] [pid 15966] [client 127.0.0.1:52584]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 67
+[Mon Nov 06 02:15:55.274999 2017] [wsgi:error] [pid 15966] [client 127.0.0.1:52584]     raise exc_info[0], exc_info[1], exc_info[2]
+[Mon Nov 06 02:15:55.275032 2017] [wsgi:error] [pid 15966] [client 127.0.0.1:52584]                      ^
+[Mon Nov 06 02:15:55.275041 2017] [wsgi:error] [pid 15966] [client 127.0.0.1:52584] SyntaxError: invalid syntax
+[Mon Nov 06 02:15:56.413603 2017] [wsgi:error] [pid 15963] [client 127.0.0.1:52588] mod_wsgi (pid=15963, process='', application='djangotest.com|'): Failed to parse WSGI script file '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Mon Nov 06 02:15:56.413648 2017] [wsgi:error] [pid 15963] [client 127.0.0.1:52588] mod_wsgi (pid=15963): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Mon Nov 06 02:15:56.413706 2017] [wsgi:error] [pid 15963] [client 127.0.0.1:52588]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 67
+[Mon Nov 06 02:15:56.413723 2017] [wsgi:error] [pid 15963] [client 127.0.0.1:52588]     raise exc_info[0], exc_info[1], exc_info[2]
+[Mon Nov 06 02:15:56.413750 2017] [wsgi:error] [pid 15963] [client 127.0.0.1:52588]                      ^
+[Mon Nov 06 02:15:56.413760 2017] [wsgi:error] [pid 15963] [client 127.0.0.1:52588] SyntaxError: invalid syntax
+[Mon Nov 06 02:16:54.098863 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590] mod_wsgi (pid=15964): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Mon Nov 06 02:16:54.098931 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590] mod_wsgi (pid=15964): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Mon Nov 06 02:16:54.184033 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590] Traceback (most recent call last):
+[Mon Nov 06 02:16:54.184361 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 91, in <module>
+[Mon Nov 06 02:16:54.184397 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]     run_with_cgi(django.core.handlers.wsgi.WSGIHandler())
+[Mon Nov 06 02:16:54.184445 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]   File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/wsgi.py", line 153, in __init__
+[Mon Nov 06 02:16:54.184469 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]     self.load_middleware()
+[Mon Nov 06 02:16:54.184509 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]   File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 48, in load_middleware
+[Mon Nov 06 02:16:54.184575 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]     if settings.MIDDLEWARE is None:
+[Mon Nov 06 02:16:54.184621 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 53, in __getattr__
+[Mon Nov 06 02:16:54.184649 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]     self._setup(name)
+[Mon Nov 06 02:16:54.184690 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 41, in _setup
+[Mon Nov 06 02:16:54.184712 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]     self._wrapped = Settings(settings_module)
+[Mon Nov 06 02:16:54.184753 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]   File "/usr/local/lib/python3.5/dist-packages/django/conf/__init__.py", line 97, in __init__
+[Mon Nov 06 02:16:54.184784 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Mon Nov 06 02:16:54.184828 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Mon Nov 06 02:16:54.184854 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]     return _bootstrap._gcd_import(name[level:], package, level)
+[Mon Nov 06 02:16:54.184898 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Mon Nov 06 02:16:54.184948 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Mon Nov 06 02:16:54.185028 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]   File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+[Mon Nov 06 02:16:54.185080 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Mon Nov 06 02:16:54.185128 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Mon Nov 06 02:16:54.185176 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Mon Nov 06 02:16:54.185222 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590]   File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+[Mon Nov 06 02:16:54.185328 2017] [wsgi:error] [pid 15964] [client 127.0.0.1:52590] ImportError: No module named 'mysite'
+[Sun Nov 05 20:48:56.893851 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596] mod_wsgi (pid=15962): Target WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py' cannot be loaded as Python module.
+[Sun Nov 05 20:48:56.893923 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596] mod_wsgi (pid=15962): Exception occurred processing WSGI script '/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py'.
+[Sun Nov 05 20:48:56.984005 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596] Traceback (most recent call last):
+[Sun Nov 05 20:48:56.984448 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "/home/neeraj/workspace/gitlab/crawler/crawlers/projects/Django99/Django99/wsgi.py", line 91, in <module>
+[Sun Nov 05 20:48:56.984488 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]     run_with_cgi(django.core.handlers.wsgi.WSGIHandler())
+[Sun Nov 05 20:48:56.984521 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/wsgi.py", line 153, in __init__
+[Sun Nov 05 20:48:56.984538 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]     self.load_middleware()
+[Sun Nov 05 20:48:56.984563 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 80, in load_middleware
+[Sun Nov 05 20:48:56.984578 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]     middleware = import_string(middleware_path)
+[Sun Nov 05 20:48:56.984612 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "/usr/local/lib/python3.5/dist-packages/django/utils/module_loading.py", line 20, in import_string
+[Sun Nov 05 20:48:56.984655 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]     module = import_module(module_path)
+[Sun Nov 05 20:48:56.984700 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "/usr/lib/python3.5/importlib/__init__.py", line 126, in import_module
+[Sun Nov 05 20:48:56.984722 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]     return _bootstrap._gcd_import(name[level:], package, level)
+[Sun Nov 05 20:48:56.984766 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+[Sun Nov 05 20:48:56.984854 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+[Sun Nov 05 20:48:56.984893 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+[Sun Nov 05 20:48:56.984945 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+[Sun Nov 05 20:48:56.985010 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+[Sun Nov 05 20:48:56.985060 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+[Sun Nov 05 20:48:56.985098 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "/usr/local/lib/python3.5/dist-packages/django/contrib/auth/middleware.py", line 4, in <module>
+[Sun Nov 05 20:48:56.985141 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]     from django.contrib.auth.backends import RemoteUserBackend
+[Sun Nov 05 20:48:56.985165 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "/usr/local/lib/python3.5/dist-packages/django/contrib/auth/backends.py", line 4, in <module>
+[Sun Nov 05 20:48:56.985178 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]     from django.contrib.auth.models import Permission
+[Sun Nov 05 20:48:56.985200 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "/usr/local/lib/python3.5/dist-packages/django/contrib/auth/models.py", line 4, in <module>
+[Sun Nov 05 20:48:56.985213 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]     from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+[Sun Nov 05 20:48:56.985234 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "/usr/local/lib/python3.5/dist-packages/django/contrib/auth/base_user.py", line 52, in <module>
+[Sun Nov 05 20:48:56.985250 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]     class AbstractBaseUser(models.Model):
+[Sun Nov 05 20:48:56.985285 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 105, in __new__
+[Sun Nov 05 20:48:56.985304 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]     app_config = apps.get_containing_app_config(module)
+[Sun Nov 05 20:48:56.985339 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "/usr/local/lib/python3.5/dist-packages/django/apps/registry.py", line 237, in get_containing_app_config
+[Sun Nov 05 20:48:56.985358 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]     self.check_apps_ready()
+[Sun Nov 05 20:48:56.985392 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]   File "/usr/local/lib/python3.5/dist-packages/django/apps/registry.py", line 124, in check_apps_ready
+[Sun Nov 05 20:48:56.985410 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596]     raise AppRegistryNotReady("Apps aren't loaded yet.")
+[Sun Nov 05 20:48:56.985513 2017] [wsgi:error] [pid 15962] [client 127.0.0.1:52596] django.core.exceptions.AppRegistryNotReady: Apps aren't loaded yet.
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function
+Failed loading /usr/lib/php/20160303/xdebug.so:  /usr/lib/php/20160303/xdebug.so: undefined symbol: zend_pass_function

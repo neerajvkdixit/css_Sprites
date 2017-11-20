@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	function getRandom(length) {
+
+return Math.floor(Math.pow(10, length-1) + Math.random() * 9 * Math.pow(10, length-1));
+
+}
+$(document).ready(function(){
+	$.support.cors = true;
+    $("button").click(function(){
+        var no = getRandom(10).toString();
+        $("#actualno").text(no);
+        var url = "maskPhone/?phone="+no
+        $.ajax({url: url,success: function(result){
+            var css = result["css"]
+            var style= "<style>" + css + "</style>"
+            //$("#loaddata").remove();
+            $("#loaddata").html("");
+            $(style).appendTo("#loaddata");
+            var markup  = result["markup"]
+            $(markup).appendTo("#loaddata")
+        }});
+    });
+});
+</script>
+</head>
+<body>
+
+
+
+<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+<div style="    font-size: 18px;" id= "actualno"></div>
+<div id="loaddata"></div>
+<button>Click for Run experiment</button>
+
+</body>
+</html>
